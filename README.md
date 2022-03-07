@@ -3,6 +3,7 @@
 
 <a href="http://wa.me//94785352921"><img src="https://img.shields.io/badge/OWNER-WhatsApp-green">
 <a href="https://t.me/dulensathsara"><img src="https://img.shields.io/badge/OWNER-Telegram-blue">
+<a href="https://vt.tiktok.com/ZSeoDyJKp/"><img src="https://img.shields.io/badge/OWNER-TIK TOK-pink">
 
     
 
