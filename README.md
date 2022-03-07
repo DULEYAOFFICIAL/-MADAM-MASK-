@@ -2,7 +2,7 @@
 ◈──Madam mask is powerful bot made for WhatsApp Founder: DULEN──◈
 
 <a href="http://wa.me//94785352921"><img src="https://img.shields.io/badge/OWNER-WhatsApp-green">
-<a href="t.me/dulensathsara"><img src="https://img.shields.io/badge/OWNER-Telegram-blue">
+<a href="https://t.me/dulensathsara"><img src="https://img.shields.io/badge/OWNER-Telegram-blue">
 
     
 
