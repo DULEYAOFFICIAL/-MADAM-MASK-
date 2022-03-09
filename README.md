@@ -29,7 +29,7 @@
  
  
 ### QR CODE BUTTON
-<div align="center"><a href="https://replit.com/@NishenDanidu1/Qeen-Alfi-X-1?v=1">    <img src="https://i.ibb.co/c3RBmPG/20220219-221409.jpg" width="150" ></a></div>
+<div align="center"><a href="https://replit.com/@dulensathsara/MADAM-MASK-QR-CODE-1?v=">    <img src="https://i.ibb.co/c3RBmPG/20220219-221409.jpg" width="150" ></a></div>
 
 
 ### <b>DEPLOY YOUR BOT ON HEROKU</b>
