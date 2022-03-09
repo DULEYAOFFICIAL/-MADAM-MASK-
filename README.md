@@ -25,9 +25,6 @@
 <a href="https://t.me/dulensathsara"><img src="https://img.shields.io/badge/OWNER-Telegram-blue">
 <a href="https://vt.tiktok.com/ZSeoDyJKp/"><img src="https://img.shields.io/badge/OWNER-TIK TOK-pink">
 
-    
-
-
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
  
  
