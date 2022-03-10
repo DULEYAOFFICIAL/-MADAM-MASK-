@@ -47,5 +47,5 @@ Bot Installing... 10%
 <br>
      
 ☛──═MADAM MASK TEAM═──☚                
-<table><tr><th>MADAM MASK <img src="https://i.ibb.co/qWwHM89/IMG-20220216-203901-141.jpg"> OWNER</a></div></th><th>DULEN<img src="https://i.ibb.co/f46K8NZ/20220302-105512.jpg">FOUNDER </th></tr><table><tr><th>NISHEN<a href="https://github.com/NishNishendanidu"><img src="https://i.ibb.co/gzJdhFd/IMG-20220310-WA0012.jpg"></th><th>DULEN<img src="https://i.ibb.co/V2m6Hjn/ezgif-1-20333ffbe8.gif"></table></th></tr>
+<table><tr><th>MADAM MASK <a href="https://github.com/DULEYAOFFICIAL"><img src="https://i.ibb.co/qWwHM89/IMG-20220216-203901-141.jpg"> OWNER</a></div></th><th>DULEN<img src="https://i.ibb.co/f46K8NZ/20220302-105512.jpg">FOUNDER </th></tr><table><tr><th>NISHEN<a href="https://github.com/NishNishendanidu"><img src="https://i.ibb.co/gzJdhFd/IMG-20220310-WA0012.jpg">SUPPORT</th><th>DULEN<img src="https://i.ibb.co/vvB7w8J/IMG-20220310-WA0054.jpg">MEMBER</table></th></tr>
 
