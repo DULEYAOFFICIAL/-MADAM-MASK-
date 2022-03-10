@@ -24,6 +24,7 @@
 <a href="http://wa.me//94785352921"><img src="https://img.shields.io/badge/OWNER-WhatsApp-green">
 <a href="https://t.me/dulensathsara"><img src="https://img.shields.io/badge/OWNER-Telegram-blue">
 <a href="https://vt.tiktok.com/ZSeoDyJKp/"><img src="https://img.shields.io/badge/OWNER-TIK TOK-pink">
+<a href="https://github.com/DULEYAOFFICIAL/-MADAM-MASK-/issues?q=is%3Aopen+is%3Aissue"><img src="https://img.shields.io/github/issues/DULEYAOFFICIAL/-MADAM-MASK-.svg">
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
  
@@ -44,13 +45,7 @@ Bot Installing... 10%
 █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
 
 <br>
- ◈──Qeen ALFI-X TEAM──◈
-<table><tr><th>✤Qeen ALFI✤</th><th>DULEN SATHSARA</th></tr><tr><td><a href="https://github.com/dulensathsara"><img src="https://i.ibb.co/KjmJB4x/IMG-20220216-203901-141.jpg" width="180" alt="Qeen ALFI-✘"></a></td><td><a href="https://github.com/ravindu01manoj"><img src="https://i.ibb.co/vPYNRRq/20220218-114910.jpg" width="180" alt="DULEN SATHSARA"></a></td></tr><tr><td> Qeen ALFI-X </td><td>Founder & Owner </td></tr></table><table><tr><th>NISHEN</th><th>SAVIYA</th><th>SHEWO</th></tr><tr><td><a href="https://github.com/ravindu01manoj"><img src="https://i.ibb.co/b2wvwh6/IMG-20220220-170354-560.jpg" width="180" alt="NISHEN DANIDU"></a></td><td><a href="https://github.com/NishNishendanidu"><img src="https://i.ibb.co/FsBHWZJ/IMG-20220220-175627-618.jpg" width="180" alt="SAVIYA"></a></td><td><a href="https://github.com/botkolla1"><img src="https://i.ibb.co/Z1qsZGm/IMG-20220220-155024-327.jpg" width="180" alt="SHEWO BOY"></a></td></tr><tr><td>GROUP MANEGMENT & HELP </td><td> CO-ADMIN & HELP</td><td>GROUP MANEGMENT & IDEA</td></tr></table><tr><th>✤Qeen ALFI✤</th><th><i>DULEN SATHSARA</i></th></tr><tr><td>
-<a href="http://wa.me//94785352921"><img src="https://img.shields.io/badge/OWNER-WhatsApp-green">
-<a href="https://t.me/dulensathsara"><img src="https://img.shields.io/badge/OWNER-Telegram-blue">
-<a href="https://vt.tiktok.com/ZSeoDyJKp/"><img src="https://img.shields.io/badge/OWNER-TIK TOK-pink">
+     
+☛──═MADAM MASK TEAM═──☚                
+<table><tr><th>MADAM MASK <img src="https://i.ibb.co/qWwHM89/IMG-20220216-203901-141.jpg"> OWNER</a></div></th><th>DULEN<img src="https://i.ibb.co/f46K8NZ/20220302-105512.jpg">FOUNDER </th></tr><table><tr><th>NISHEN<a href="https://github.com/NishNishendanidu"><img src="https://i.ibb.co/gzJdhFd/IMG-20220310-WA0012.jpg"></th><th>DULEN<img src="https://i.ibb.co/V2m6Hjn/ezgif-1-20333ffbe8.gif"></table></th></tr>
 
-    
-
-
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
