@@ -30,13 +30,14 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
  
- 
+<img src="https://github-readme-stats.vercel.app/api?username=DULEYAOFFICIAL&theme=blue-green"> 
+
 ### QR CODE BUTTON
-<div align="center"><a href="https://replit.com/@dulensathsara/MADAM-MASK-QR-CODE-1?v=1">    <img src="https://i.ibb.co/c3RBmPG/20220219-221409.jpg" width="150" ></a></div>
+<div align="center"><a href="https://replit.com/@dulensathsara/MADAM-MASK-QR-CODE-1?v=1">    <img src="https://i.ibb.co/c3RBmPG/20220219-221409.jpg" width="100" ></a></div>
 
 
 ### <b>DEPLOY YOUR BOT ON HEROKU</b>
-<a href="https://heroku.com/deploy?template=https://github.com/DULEYAOFFICIAL/-MADAM-MASK-"><img src="https://i.ibb.co/D4XTPbM/heroku.png" width="150" ></a></div>
+<a href="https://heroku.com/deploy?template=https://github.com/DULEYAOFFICIAL/-MADAM-MASK-"><img src="https://i.ibb.co/D4XTPbM/heroku.png" width="100" ></a></div>
 
 ----
 
