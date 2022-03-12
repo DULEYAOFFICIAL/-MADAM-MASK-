@@ -1,7 +1,7 @@
-# -MADAM-MASK-
+# <b><tt><i>-MADAM-MASK-</i></b></tt>
 <br>
 
-◈──Madam mask is powerful bot made for WhatsApp Bot Founder: DULEN──◈
+<i>◈──Madam mask is powerful bot made for WhatsApp Bot Founder: DULEN──◈</i>
 <br>
 
 <a href="https://github.com/DULEYAOFFICIAL/-MADAM-MASK-">![MADAM MASK BOT](https://img.shields.io/badge/MADAM%20MASK-Bot-52b5f7?style=for-the-badge&logo=discord%20alexa&logowhite=white)
@@ -25,6 +25,8 @@
 <a href="https://t.me/dulensathsara"><img src="https://img.shields.io/badge/OWNER-Telegram-blue">
 <a href="https://vt.tiktok.com/ZSeoDyJKp/"><img src="https://img.shields.io/badge/OWNER-TIK TOK-pink">
 <a href="https://github.com/DULEYAOFFICIAL/-MADAM-MASK-/issues?q=is%3Aopen+is%3Aissue"><img src="https://img.shields.io/github/issues/DULEYAOFFICIAL/-MADAM-MASK-.svg">
+<a href="https://github.com/DULEYAOFFICIAL/-MADAM-MASK-/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed/DULEYAOFFICIAL/-MADAM-MASK-.svg">
+<a href="https://github.com/DULEYAOFFICIAL/-MADAM-MASK-/blob/main/README.md"><img src="https://badge-size.herokuapp.com/DULEYAOFFICIAL/-MADAM-MASK-/main/README.md">
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
  
