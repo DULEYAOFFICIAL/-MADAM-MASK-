@@ -29,11 +29,6 @@ rows: [
 "rowId": `${prefix}makermenu`
 },
 {
-"title": "GAME MENU",
-"description": `Display A List Of Game Features`,
-"rowId": `${prefix}gamemenu`
-},
-{
 "title": "RANDOM IMAGE MENU",
 "description": `Display A List Of Random Photo Features`,
 "rowId": `${prefix}randomimage`
@@ -44,29 +39,9 @@ rows: [
 "rowId": `${prefix}randomvideo`
 },
 {
-"title": "AESTHETIC GIRL MENU",
-"description": `Display A List Of 18+ Intake Features`,
-"rowId": `${prefix}asupanmenu`
-},
-{
-"title": "RANDOM GIRL MENU",
-"description": `Display A List Of Random Girl Features`,
-"rowId": `${prefix}cecanmenu`
-},
-{
 "title": "ANIME MENU",
 "description": `Display A List Of Anime Features`,
 "rowId": `${prefix}animemenu`
-},
-{
-"title": "NSFW/HENTAI MENU",
-"description": `Display A List Of Nsfw 18+ Features`,
-"rowId": `${prefix}nsfwmenu`
-},
-{
-"title": "STICKER MENU",
-"description": `Display A List Of Sticker Features`,
-"rowId": `${prefix}stickermenu`
 },
 {
 "title": "FUN MENU",
@@ -79,29 +54,9 @@ rows: [
 "rowId": `${prefix}soundmenu`
 },
 {
-"title": "OCR MENU",
-"description": `Display A List Of Ocr Features`,
-"rowId": `${prefix}ocrmenu`
-},
-{
-"title": "CONVERTER MENU",
-"description": `Display A List Of Convert Features`,
-"rowId": `${prefix}convertmenu`
-},
-{
-"title": "LEVELING MENU",
-"description": `Display A List Of Leveling Features`,
-"rowId": `${prefix}levelingmenu`
-},
-{
 "title": "SEARCH MENU",
 "description": `Display A List Of Searching Features`,
 "rowId": `${prefix}searchmenu`
-},
-{
-"title": "APK MENU",
-"description": `Display A List Of Apk Features`,
-"rowId": `${prefix}apkmenu`
 },
 {
 "title": "OTHER MENU",
