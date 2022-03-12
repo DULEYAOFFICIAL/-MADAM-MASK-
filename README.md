@@ -40,6 +40,12 @@
 <a href="https://heroku.com/deploy?template=https://github.com/DULEYAOFFICIAL/-MADAM-MASK-"><img src="https://i.ibb.co/D4XTPbM/heroku.png" width="100" ></a></div>
 
 ----
+☘ TERMUX USERS ☘
+
+````
+bash <(curl -L https://tinyurl.com/Madam mask-QR-CODE)
+````
+
 
   
  
@@ -50,5 +56,5 @@ Bot Installing... 78%
 <br>
      
 ☛──═MADAM MASK TEAM═──☚                
-<table><tr><th>MADAM MASK <a href="https://github.com/DULEYAOFFICIAL"><img src="https://i.ibb.co/qWwHM89/IMG-20220216-203901-141.jpg"> OWNER</a></div></th><th>DULEN<img src="https://i.ibb.co/f46K8NZ/20220302-105512.jpg">FOUNDER </th></tr><table><tr><th>NISHEN<a href="https://github.com/NishNishendanidu"><img src="https://i.ibb.co/gzJdhFd/IMG-20220310-WA0012.jpg">SUPPORT</th><th>SHEWON<img src="https://i.ibb.co/vvB7w8J/IMG-20220310-WA0054.jpg">MEMBER</table></th></tr>
+<table><tr><th>MADAM MASK <a href="https://github.com/DULEYAOFFICIAL"><img src="https://i.ibb.co/qWwHM89/IMG-20220216-203901-141.jpg"> OWNER</a></div></th><th>DULEN <a href="https://github.com/DULEYAOFFICIAL"><img src="https://i.ibb.co/f46K8NZ/20220302-105512.jpg">FOUNDER <a href="https://github.com/DULEYAOFFICIAL"> </th></tr><table><tr><th>NISHEN <a href="https://github.com/NishNishendanidu"><img src="https://i.ibb.co/gzJdhFd/IMG-20220310-WA0012.jpg">SUPPORT</th><th>SHEWON <a href="https://github.com/botkolla1"><img src="https://i.ibb.co/vvB7w8J/IMG-20220310-WA0054.jpg">MEMBER</table></th></tr>
 
