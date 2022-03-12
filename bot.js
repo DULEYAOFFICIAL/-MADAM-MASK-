@@ -5,7 +5,121 @@ you may not use this file except in compliance with the License.
 
 MADAMMASK - Yusuf Usta
 */
-
+listMsg = {
+buttonText: 'MENU 📃',
+footerText: `*${botname}*`,
+description: `Hi Friend @${senderr.split('@')[0]}, Please select the menu here`,
+sections: [
+{
+"title": `${tanggal} - ${time}`,
+rows: [
+{
+"title": "GROUP MENU",
+"description": `Display A List Of Group Features`,
+"rowId": `${prefix}grupmenu`
+},
+{
+"title": "DOWNLOAD MENU",
+"description": `Display A List Of Features To Download`,
+"rowId": `${prefix}downloadmenu`
+},
+{
+"title": "MAKER MENU",
+"description": `Display A List Of Features To Create Logo`,
+"rowId": `${prefix}makermenu`
+},
+{
+"title": "GAME MENU",
+"description": `Display A List Of Game Features`,
+"rowId": `${prefix}gamemenu`
+},
+{
+"title": "RANDOM IMAGE MENU",
+"description": `Display A List Of Random Photo Features`,
+"rowId": `${prefix}randomimage`
+},
+{
+"title": "RANDOM VIDEO",
+"description": `Display A List Of Random Video Features`,
+"rowId": `${prefix}randomvideo`
+},
+{
+"title": "AESTHETIC GIRL MENU",
+"description": `Display A List Of 18+ Intake Features`,
+"rowId": `${prefix}asupanmenu`
+},
+{
+"title": "RANDOM GIRL MENU",
+"description": `Display A List Of Random Girl Features`,
+"rowId": `${prefix}cecanmenu`
+},
+{
+"title": "ANIME MENU",
+"description": `Display A List Of Anime Features`,
+"rowId": `${prefix}animemenu`
+},
+{
+"title": "NSFW/HENTAI MENU",
+"description": `Display A List Of Nsfw 18+ Features`,
+"rowId": `${prefix}nsfwmenu`
+},
+{
+"title": "STICKER MENU",
+"description": `Display A List Of Sticker Features`,
+"rowId": `${prefix}stickermenu`
+},
+{
+"title": "FUN MENU",
+"description": `Display A List Of Fun Features`,
+"rowId": `${prefix}funmenu`
+},
+{
+"title": "SOUND MENU",
+"description": `Display A List Of Sounds`,
+"rowId": `${prefix}soundmenu`
+},
+{
+"title": "OCR MENU",
+"description": `Display A List Of Ocr Features`,
+"rowId": `${prefix}ocrmenu`
+},
+{
+"title": "CONVERTER MENU",
+"description": `Display A List Of Convert Features`,
+"rowId": `${prefix}convertmenu`
+},
+{
+"title": "LEVELING MENU",
+"description": `Display A List Of Leveling Features`,
+"rowId": `${prefix}levelingmenu`
+},
+{
+"title": "SEARCH MENU",
+"description": `Display A List Of Searching Features`,
+"rowId": `${prefix}searchmenu`
+},
+{
+"title": "APK MENU",
+"description": `Display A List Of Apk Features`,
+"rowId": `${prefix}apkmenu`
+},
+{
+"title": "OTHER MENU",
+"description": `Display A List Of Other Features`,
+"rowId": `${prefix}othermenu`
+},
+{
+"title": "OWNER MENU",
+"description": `Display A List Of Owner Features`,
+"rowId": `${prefix}ownermenu`
+}
+]
+}],
+listType: 1
+}
+DogeXeonOP.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mentionedJid: [senderr]},quoted:fgi})
+break
+case 'allmenu':
 const fs = require("fs");
 const path = require("path");
 const events = require("./events");
