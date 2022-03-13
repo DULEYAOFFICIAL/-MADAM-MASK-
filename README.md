@@ -50,8 +50,8 @@ bash <(curl -L https://tinyurl.com/Madam mask-QR-CODE)
   
  
 
-Bot Installing... 78%
-███████████████▒▒▒
+Bot Installing... 84%
+████████████████▒▒
 
 <br>
      
