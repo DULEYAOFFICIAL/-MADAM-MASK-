@@ -1,4 +1,4 @@
-<img src="">
+
 # <b><tt><i>-MADAM-MASK-</i></b></tt>
 <br>
 
