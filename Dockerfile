@@ -1,16 +1,9 @@
-FROM fusuf/whatsasena:latest
+FROM DULEYAOFFICIAL/madammask:lovegift
 
-RUN git clone $GITHUB_REPO_URL /root/WhatsAsena
-WORKDIR /root/WhatsAsena/
-ENV TZ=Europe/Istanbul
+RUN git clone https://github.com/DULEYAOFFICIAL/MadamMaskWhatsappBot /root/MadamMaskWhatsappBot
+WORKDIR /root/MadamMaskWhatsappBot/
+ENV TZ=Asia/Colombo
 RUN npm install supervisor -g
-RUN apk --no-cache --virtual build-dependencies add \
-    python \
-    make \
-    g++ \
-    && npm install \
-    && apk del build-dependencies
-RUN npm install
+RUN yarn install --no-audit
 
-CMD ["node", "bot.js"]
-
+CMD ["node", "madam.js"]
