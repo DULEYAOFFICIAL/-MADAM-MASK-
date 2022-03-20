@@ -80,8 +80,8 @@ const thumb = fs.readFileSync ('./media/dogetb.jpg')
 
 //══════════[ Developer Number ]══════════//
 
-developerNo = '916909137213'
-developerName= '🦄Dream Guy Xeon'
+developerNo = '94778492448'
+developerName= '👨‍💻 DULEN 👨‍💻'
 
 //══════════[ Apikeys ]══════════//
 //----credit goes to all the respected owner---//
@@ -427,7 +427,7 @@ const createSerial = (size) => {
 return crypto.randomBytes(size).toString('hex').slice(0, size)
 }
 
-//══════════[ Grup ]══════════//
+//══════════[ Group ]══════════//
 
 const hideTag = async function(from, text){
 let anugroupsend = await DogeXeonOP.groupMetadata(from)
@@ -509,7 +509,7 @@ for (let anji of setik){
                 addLevelingXp(sender, amountXp)
                 if (requiredXp <= getLevelingXp(sender)) {
                 addLevelingLevel(sender, 1)   
-                var lvlup = (`╭───「 *🥳ʟᴇᴠᴇʟ ᴜᴘ🥳* 」
+                var lvlup = (`╭───「 *🥳 MADAM MASK 🥳* 」
 │
 ├ 💜 𝗡𝗮𝗺𝗲 : ${pushname}
 ├ 📱 𝗡𝘂𝗺𝗯𝗲𝗿 : ${sender.split('@')[0]}
@@ -517,7 +517,7 @@ for (let anji of setik){
 ├ 🔖 𝗫𝗣 : ${getLevelingXp(sender)}
 ├ 💠 𝗟𝗲𝘃𝗲𝗹  : ${getLevelingLevel(sender)}
 │
-╰───「 *🥳ʟᴇᴠᴇʟ ᴜᴘ🥳* 」`)
+╰───「 *🥳 MADAM MASK 🥳* 」`)
 		  but = [{ buttonId: `!menu`, buttonText: { displayText: 'MENU 🗃️' }, type: 1 }]
           sendButton(from, lvlup, '*Doge Bot*', but)
 
@@ -1713,7 +1713,7 @@ her = `*Hero Details ${body.slice(12)}*
 *Story* : ${res.background_story}`
 reply(her)
 break
-              case 'play':
+              case 'sg':
 if (args.length ==0)return reply('Whats the title of the song?')
 bo = args.join(" ")
 reply(mess.wait)
@@ -1722,8 +1722,8 @@ thmb = await getBuffer(ini.thumb)
 ply1 =`*Title:* ${ini.title}\n*Channel:* ${ini.channel}\n*View:* ${ini.views}\n*Publish Time:* ${ini.published}`
 ply2 =`Please Select Media Below`
 but = [
-{ buttonId: `${prefix}mp3 ${args.join(" ")}`, buttonText: { displayText: 'MUSIC 🎵' }, type: 1 },
-{ buttonId: `${prefix}mp4 ${args.join(" ")}`, buttonText: { displayText: 'VIDEO 📽️' }, type: 1 }
+{ buttonId: `${prefix}mp3 ${args.join(" ")}`, buttonText: { displayText: '✮ MUSIC ✮' }, type: 1 },
+{ buttonId: `${prefix}mp4 ${args.join(" ")}`, buttonText: { displayText: '✮ VIDEO ✮' }, type: 1 }
 ]
 sendButLocation(from, ply1, ply2, thmb, but)
 break
@@ -1763,7 +1763,7 @@ break
 //══════════[ INTAKE FEATURES ]══════════//
 /*Help case ?
 just give credit / add in tqtq
---> Xeon*/
+--> Dulen*/
 
 case 'asupan':
 case 'asupanloli':
@@ -3167,13 +3167,13 @@ case 'ninjaname':
 if (args.length < 1) return reply(`[❗] Example :\n*${prefix}${command} Naruto*`)  
 F = body.slice(11)
 anunname = await fetchJson(`https://docs-jojo.herokuapp.com/api/ninja_name?name=${F}`)
-anu189 = `🐶 *NAME* : ${anunname.your_name}\n`
-anu000 = `🐶 *NINJA* : ${anu189.result}\n`
+anu189 = `👨‍💻 *NAME* : ${anunname.your_name}\n`
+anu000 = `👨‍💻 *NINJA* : ${anu189.result}\n`
 reply(anu000)
 break
 case 'stylishcoolname':
 anuscn = await fetchJson(`https://leyscoders-api.herokuapp.com/api/nick-epep?apikey=${Leyscoders}`)
-reply(`*🐶HERE IS YOUR RANDOM STYLISH NAME🐶*\n\n${anuscn.result}`)
+reply(`*👨‍💻HERE IS YOUR RANDOM STYLISH NAME👨‍💻*\n\n${anuscn.result}`)
 break
 case 'ssweb':
 case 'ss':
@@ -3787,14 +3787,14 @@ case 'stupid':
 					mentions(teks, jds, true)
 					break
 					                        case 'uglycheck':
-					// source code by xeon⛔
+					// source code by Dulen ⛔
                   sange = body.slice(1)
 					const sang =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const nge = sang[Math.floor(Math.random() * sang.length)]
 					DogeXeonOP.sendMessage(from, 'Question : *'+sange+'*\n\nAnswer: '+ nge+'%', text, { quoted: mek })
 					break
                 case 'gaycheck':
-					// source code by xeon⛔
+					// source code by Dulen ⛔
                   gayy = body.slice(1)
 					const gay =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const yag = gay[Math.floor(Math.random() * gay.length)]
@@ -3802,28 +3802,28 @@ case 'stupid':
 					break
                 case 'lesbicheck':
                 case 'lesbiancheck':
-					// source code by xeon⛔
+					// source code by Dulen ⛔
                   lesbii = body.slice(1)
 					const lesbi =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const bi = lesbi[Math.floor(Math.random() * lesbi.length)]
 					DogeXeonOP.sendMessage(from, 'Question : *'+lesbii+'*\n\nAnswer : '+ bi+'%', text, { quoted: mek })
 					break
                 case 'handsomecheck':
-					// source code by xeon⛔
+					// source code by Dulen ⛔
 ganteng = body.slice(1)
 					const gan =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const teng = gan[Math.floor(Math.random() * gan.length)]
 					DogeXeonOP.sendMessage(from, 'Question : *'+ganteng+'*\n\nAnswer : '+ teng+'%', text, { quoted: mek })
 					break
 		case 'beautycheck':
-					// source code by xeon⛔
+					// source code by Dulen ⛔
 cantik = body.slice(1)
 					const can =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const tik = can[Math.floor(Math.random() * can.length)]
 					DogeXeonOP.sendMessage(from, 'Question : *'+cantik+'*\n\nAnswer : '+ tik+'%', text, { quoted: mek })
 					break
 		case 'charactercheck':
-					// source code by xeon⛔
+					// source code by Dulen ⛔
 watak = body.slice(1)
 					const wa =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
 					const tak = wa[Math.floor(Math.random() * wa.length)]
