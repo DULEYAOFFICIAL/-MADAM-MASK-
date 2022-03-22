@@ -1,9 +1,10 @@
-FROM DULEYAOFFICIAL/madammask:lovegift
+FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/DULEYAOFFICIAL/MadamMaskWhatsappBot/root/MadamMaskWhatsappBot
-WORKDIR /root/MadamMaskWhatsappBot/
+RUN git clone https://github.com/Dark-Maxv1/V4 /root/V4
+WORKDIR /root/V4/
 ENV TZ=Asia/Colombo
 RUN npm install supervisor -g
 RUN yarn install --no-audit
 
-CMD ["node", "bot.js"]
+CMD ["node", "assets/bot.js"]
+
