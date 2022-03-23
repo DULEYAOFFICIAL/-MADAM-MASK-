@@ -1,9 +1,13 @@
-FROM ravindu01manoj/sewqueen:fullcontrol
+FROM NishNishendanidu/redblacky:fullcontrol
 
-RUN git clone https://github.com/ravindu01manoj/Sew-Queen /root/QueenSewWhatsappBot
-WORKDIR /root/QueenSewWhatsappBot/
+RUN git clone https://github.com/NishNishendaniduRedBlacky /root/RedblackyWhatsappBot
+
+WORKDIR /root/RedBlackyWhatsappBot/
+
 ENV TZ=Asia/Colombo
+
 RUN npm install supervisor -g
+
 RUN yarn install --no-audit
 
 CMD ["node", "bot.js"]
