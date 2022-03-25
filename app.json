@@ -1,210 +1,230 @@
 {
-    "name": "🌹 MADAM MASK 🌹 WhatsApp BOT",
-    "description": "Sri lankan WhatsApp bot made for support your whatsapp acount build by DULEN ☘",
-    "logo": "https://i.ibb.co/PhHXgwD/20220312-164706.jpg",
-    "keywords": ["Achi Bro lk | PG", "ALPHA"],
+    "name": "Sew-Queen",
+    "description": "World Best Whatsapp Bot",
+    "logo": "https://i.ibb.co/cQQ7RkC/main.jpg",
+    "keywords": ["sew", "sewqueen"],
     "stack": "container",
     "env": {
-      "MADAM_SESSION": {
-            "description": "Paste your QR session that you got from https://replit.com/@CTBOT/Alpha-Qr?v=1. ඇල්ෆා qr කේතය යොදන්න.",
+        "_SEW_QUEEN_SESSION": {
+            "description": "Scan the QR code and enter the code obtained. QR කෝඩය ස්කෑන් කර ලබා ගන්නා කේතය ඇතුලත් කරන්න",
             "required": true
         },
-        "BUTTON_CMD": {
-            "description": "YOU NEED BUTTON COMMANDS TYPE ( btn ) YOU NEED TEXT COMMAND TYPE ( txt ) බටන් කමාන්ඩ් සමහර ෆෝන් වලට වැඩ කරන් නෑ..",
-            "value":"btn"
-        },
-          "MENU_CMD": {
-            "description": "TYPE YOUR MENU COMMAND.ඔබෙ මෙනු එක ගැනිම සදහා අවශ්‍ය නම් විදානයක් සකසන්න.",
-            "value":"menu"
-        },      
-        "ALIVE_LOGO": {
-            "description": "If you do not want to change Alive Logo put here to your image direct link or, type default. ඔබගෙ alive logo එක සාදහා ඔබෙ logo එකක් යේදිමට අවශ්‍ය නම් මෙහි link එක යොදන්න.",
-            "required": false,
-            "value": "default"
-        },
-        "SONG_UPLOAD": {
-            "description": "SONG UPLOAFING MESSAGE අවශ්‍ය නම් මෙය වෙනස් කරගන්න.",
-            "value": "🎊 ```Uploding song``` 🎊"
-        },
-        "SONG_DOWNLOAD": {
-            "description": "SONG DOWNLOADING MESSAGE අවශ්‍ය නම් මෙය වෙනස් කරගන්න.",
-            "value": "🎊 ```Downloading song``` 🎊"
-        },
-        "VIDEO_UPLOAD": {
-            "description": "VIDEO UPLOADING MESSAGE අවශ්‍ය නම් මෙය වෙනස් කරගන්න.",
-            "value":"🎊 ```Uploding video``` 🎊"
-        },
-        "VIDEO_DOWNLOAD": {
-            "description": "VIDEO DOWNLOADING MESSAGE අවශ්‍ය නම් මෙය වෙනස් කරගන්න.",
-            "value":"🎊 ```Downloading video``` 🎊"
-        },
-        "TIME_ZONE": {
-            "description": "YOUR COUNTRY TIME ZONE ලන්කාවෙ අය තියන විදිහට තියන්න..",
-            "value":"Asia/Colombo"
-        },
-        "SUDO": {
-            "description": "If you do not know how to use it, leave it blank! SUDO mode; Your number must be an international number. So you have to have your number after the country code. Example: 947xxxxxxxx (Sri lanka No. 94) ඔබගෙ බොට් වෙනත් WhatsApp අංකයකට ක්‍රියා කර විමට මෙහි එම අංකය යොදන්න.",
-            "required": false
-        },
         "LANGUAGE": {
-            "description": "Enter your language. To enable Sinhala, type SI. or to enable English, type EN. මෙහි අවශ්‍ය නම් භාශාව වෙනස් කර ගන්න.",
+            "description": "Enter the language you want (EN or SI), ඔබට අවශ්‍ය භාෂාව ඇතුලත් කරන්න.. (EN හො SI)",
             "required": true,
-            "value": "si"
+            "value": "en"
         },
-        "WELCOME": {
-            "description": "Welcome message type pp or gif යමෙකු group එක තුලට පැමිනි විට යොදන massage එකත් සමග ඔහුගෙ dp එක වැටිමට අවශ්‍ය නම් pp ලෙස යොදන්න, අප විසි ලබාදෙන gif එක අවශ්‍ය නම් gif ලෙස යොදන්න.",
+        "S_DOWN_SONG": {
+            "description": "Enter the audio download message... ශබ්ද බාගත වීමේ පණිවිඩය ඇතුලත් කරන්න",
             "required": true,
-            "value": "gif"
+            "value": "_*I'm Searching your song*_ ✨➾🔎"
         },
-        "AUTO_BIO": {
-            "description": "Setup AUTO BIO feature. Adding a live clock for your WhatsApp about. ඔබගෙ about එක තුල live වෙලාව හා දිනය පෙන්න විමට අව්ශ්‍ය නම් true ලෙස වෙනස් කරන්න. ",
+        "S_UP_SONG": {
+            "description": "Enter the audio upload message... ශබ්ද උඩුගත වීමේ පණිවිඩය ඇතුලත් කරන්න",
             "required": true,
-            "value": "false"
+            "value": "_*Im Uploading your song*_ ✨➾🎲"
         },
-        "HANDLERS": {
-            "description": "Do not change ❌ .  bot prefix to use commands. කිසිවක් නොකරන්න.",
+        "S_DOWN_VID": {
+            "description": "Enter the video download message... වීඩියෝ බාගත වීමේ පණිවිඩය ඇතුලත් කරන්න",
             "required": true,
-            "value": "^[.!#$,*@]"
+            "value": "_*I'm Bringing your video*_ ✨➾🔎"
         },
-        "ANTIBAD": {
-            "description": "Set True , Activate Anti-Bad word for your groups. අසභ්‍ය වචන කියුවිට group එක තුලින් පන්නා ඩැමිමට අව්ශ්‍ය නම් true ලෙස යොදන්න. ",
+        "S_UP_VID": {
+            "description": "Enter the video upload message... වීඩියෝ උඩුගත වීමේ පණිවිඩය ඇතුලත් කරන්න",
+            "required": true,
+            "value": "_*Im Uploading your video*_ ✨➾🎲"
+        },
+        "MENU_HEADER": {
+            "description": "ITS CHANGE YOUR CMD LIST HEADER",
+            "required": true,
+            "value": "╔━━━━━━◉━━━━━━╗\n┃ ⚘ MADAM MASK ⚘  ┃╚━━━━━━◉━━━━━━╝\n👩‍🦰 *MADAM MASK* 👩‍🦰\n        ☬  *MENU*  ☬"
+        },
+        "GROUP_MANAGE": {
+            "description": "If you want the admin in the group to be able to use the admin command too, enter true. සමූහය තුල සිටින ඇඩ්මින් හටද ඇඩ්මින් විදාන භාවිතා කිරීමට හැකි සේ සැකසීම අවශ්‍යයි නම් true ලෙස ඇතුලත් කරන්න",
             "required": true,
             "value": "false"
         },
         "ANTI_LINK": {
-            "description": "Set True , Activate anti link for your groups. අන්වශ්‍ය link දැමු විට group එක තුලින් පන්නා ඩැමිමට අව්ශ්‍ය නම් true ලෙස යොදන්න. ",
+            "description": "If someone inserts a link into the group and wants to remove him from the group, enter true..සමූහයට කෙනෙකු ලින්ක් එකක් ඇතුලත් කලහොත් ඔහුව ගෲපයෙන් නෙරපා දැමීමට අවශ්‍ය නම් true ලෙස ඇතුලත් කරන්න",
             "required": true,
             "value": "false"
         },
-        "GROUP_RULES": {
-            "description": "Set your group Rules. ඔබගෙ group එකෙ නිති තිබෙ නම් මෙහි යොදන්න. ",
+        "INBO_BLOCK": {
+            "description": "INBOX BLOCKING SYSTEM.. ඉන්බොක්ස් බ්ලොක් කිරීමේ පද්දතිය.. eg true/all or true/cmd or false",
             "required": true,
-            "value": "No Rules"
+            "value": "false"
         },
-        "GROUP_DETAILS": {
-            "description": "Set You Group. ඔබගෙ සියලු group විස්තර මෙහි යොදන්න. ",
+        "SPAM_CMD": {
+            "description": "NOT WORKING THIS CMD",
+            "required": true,
+            "value": "hunt"
+        },
+        "BAD_KICK": {
+            "description": "BAD WORD &  GROUP LINK KICKING SYSTEM.. අසබ්‍ය වචන හා ගෲප් ලින්ක් දමන්නන් ඉවත් කිරීමේ පද්දතිය",
+            "required": true,
+            "value": "true"
+        },
+        "ALIVE_LOGO": {
+            "description": "Add Your Alive Logo",
+            "required": false
+        },
+        "WARN_MSG": {
+            "description": "WANR KICK MASSAGE .. වර්න් ලබා දී කික් වන විට යෙදිය යුතු පණිවිඩය ඇතුලත් කරන්න",
+            "required": true,
+            "value": "*Your Times over Now.. So Good Bye*"
+        },
+        "WARN_COUNT": {
+            "description": "Input Warn Count",
+            "required": true,
+            "value": "3"
+        },
+        "HANDLERS": {
+            "description": "For commands.",
+            "required": true,
+            "value": "^[.!;]"
+        },
+        "CAPTION_NAME": {
+            "description": "කැප්ශන් එක ඇතුලත් කරන්න... Enter the Caption",
+            "required": ☬ CRETED BY MADAM MASK ☬
+         },
+          "BOT_PASSWORD": {
+            "description": "බොට්ව සෑදීම සදහා පාස්වර්ඩ් එකක් අවශ්‍ය අතර වීඩියෝව නරඹා එය ලබා ගන්න.password required.. watch the video ==> https://youtu.be/AKU7YVXxMbM",
+            "required": true
+         },
+        "OWNER_SHIP": {
+            "description": "බොට් අයිතිකරුගේ නාමය ඇතුලත් කරන්න.",
             "required": false,
-            "value": "default"
+            "value": "DULEN SATHSARA"
+        },
+        
+        "YOUR_BOT_NAME": {
+            "description": "බොට්ගේ නාමය ඇතුලත් කරන්න.",
+            "required": false,
+            "value": "☬ MRS MADAM MASK ☬"
+        },
+        "NO_LOG": {
+            "description": "Set true if you don't want to see error log.",
+            "required": true,
+            "value": "false"
         },
         "SEND_READ": {
-            "description": "Need to show user whether bot message seen or not? ඔබගෙ බොට් massage කියවු බවට නොපෙනි විමට අවශ්‍ය නම්  false ලෙස යොදන්න. ",
+            "description": "Write true if you want to throw seen.",
             "required": true,
             "value": "true"
         },
         "HEROKU": {
-            "description": "Heroku මෙය වෙනස් නොකරන්න. ",
+            "description": "If it is running in Heroku, type true.",
             "required": true,
             "value": "true"
         },
         "HEROKU_API_KEY": {
-            "description": "https://dashboard.heroku.com/account Click this link. Scroll down for the API key. Then click the Reveal button. Copy the API key and paste the API Key empty box below. ඔබගෙ heroku ගිනුමෙ api කෙතය යොදන්න. ",
-            "required": true
-        },
-        "HEROKU_APP_NAME": {
-            "description": "Use the same App name as first. ඔබ මෙහි ඉහතින් දැමු app name එක මෙහි යොදන්න. ",
+            "description": "Heroku API Key.",
             "required": true
         },
         "MUTE_MESSAGE": {
-            "description": "Message received when mute a group. If you do not want to change this message, type default. ඔබගෙ group එක admin only දාන විට ලැබෙන massage එක මෙහි යොදන්න. ",
+            "description": "Customizable Mute Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
-        "BLOCK_CHAT": {
-            "description": "Select the chat where the bot does not work. Ex: 947xxxxxxxx && 947xxxxxxxx හෝ 947xxxxxxxx,947xxxxxxxx",
-            "required": false,
-            "value": "no chats added ඔබගෙ බොට් යම් කිසි අංකයකට වැඩ නොකරන ලෙස අවශ්‍ය නම් මෙහි එම අංකය යොදන්න. "
-        },
         "UNMUTE_MESSAGE": {
-            "description": "Message received when unmute a group. If you do not want to change this message, type default. ඔබගෙ group එක admin only ඉවත් කරන විට ලැබෙන massage එක මෙහි යොදන්න. ",
+            "description": "Customizable Unmute Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "BLOCK_MESSAGE": {
-            "description": "Modifiable chat block notification. If you do not want to change this message, type default. කෙනෙකුව block කරන විට යොදන massage එක මෙහි යොදන්න. ",
+            "description": "Customizable Block Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "UNBLOCK_MESSAGE": {
-            "description": "Modifiable chat unblock notification. If you do not want to change this message, type default. කෙනෙකු unblock කරන විට යොදන massage එක මෙහි යොදන්න.",
+            "description": "Customizable Unblock Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "WORK_TYPE": {
-            "description": "The way the bot works. If you use public, everyone can use the bot. If you use private, only you can use your bot. ඔබගෙ බොට් ඔබට පනක් ක්‍රියා කර විමට අවශ්‍ය නම මෙහි private නැති නම් වෙනස් නොකරන්න.  ",
+            "description": "Madam Mask Bot Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
             "required": true,
             "value": "public"
-        },       
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Heroku APP Name.",
+            "required": true
+        },
         "DEBUG": {
-            "description": "If you do not know this. Give it up. වෙනස් නොකරන්න. ",
+            "description": "Geliştiricilere özeldir.",
             "required": true,
             "value": "false"
         },
-        "WELCOME_LOGO": {
-            "description": "To change the welcome message video, enter your video link below ඔබට welcome logo එකට අවශ්‍ය link එක මෙහි යොදන්න.",
-            "required": true,
-            "value":"https://i.ibb.co/g4pMb5C/welcome-icegif-1.gif"
-        },
-        "BYE_LOGO": {
-            "description": "Below is your video link to change Goodbye message video. ඔබට bye logo එක අවශ්‍ය නම මෙහි එහි link එක යොදන්න. ",
-            "required": true,
-            "value":"https://i.ibb.co/XLypLF3/Bye-Bye-animated-gif.gif"
-        },
         "REMOVE_BG_API_KEY": {
-            "description": "Here you go to the website remove.bg and sign up and get an API key. Leave the API key in this space. ඔබගෙ photos වල background ඉවත් කිරිමට අවශ්‍ය නම මෙම api කෙතය නෙහි යොදන්න. ",
+            "description": "Get API Key. https://remove.bg",
             "required": false
         },
         "ALIVE_MESSAGE": {
-            "description": "The message you get when you check whether the bot is online or not. This is not necessarily the case. ඔබට alive massage එකට අවශ්‍ය ලෙස මෙහි එය යොදන්න.",
+            "description": "Customizable Alive Message! Use => default, to change back.  include {status} & {phoneinfo} & {sever} & {ratings} to add about chat & phone info & saver info & Your Ratings to your alive message",
             "required": false,
-            "value": "default"
+            "value": "Hello I Am Alive\n{ratings}\n {status} \n {phoneinfo} \n {sever}"
         },
         "BAN_MESSAGE": {
-            "description": "The message you get when someone commands you as .ban and removes it. If you do not want to change this message, type default. යම් කිසිවෙමු ඔබගෙ සමුහයෙන් පන්න දාමනවිට පැමිනෙන massage එක වෙනස් කිරිමට අව්ශ්‍ය නම් මෙහි යොදන්න. ",
+            "description": "Customizable Ban Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "ADD_MESSAGE": {
-            "description": "If you do not want to change this message, type default. කෙනෙකු ඔබගෙ group එකට add කරන විට ලැබෙන massage එක මෙහි යොදන්න. ",
+            "description": "Customizable Add Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "KICKME_MESSAGE": {
-            "description": "If you do not want to change this message, type default. ඔබ group එකකින් ඉවත් වන විට ලැබෙන massage එක මෙහි යොදන්න. ",
+            "description": "Customizable Kickme Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "PROMOTE_MESSAGE": {
-            "description": "If you do not want to change this message, type default. admin වරයෙකු පත් කර විට ලැබෙන massage එක මෙහි යොදන්න.",
+            "description": "Customizable Promote Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "DEMOTE_MESSAGE": {
-            "description": "If you do not want to change this message, type default.admin වරයෙකු ඉවත් කර විට ලැබෙන massage එක මෙහි යොදන්න. ",
+            "description": "Customizable Demote Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "AFK_MESSAGE": {
-            "description": "If you do not want to change this message, type default. ඔබ online නොමැහි විට යොදන massage එක මෙහි යොදන්න.",
+            "description": "Customizable AFK Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
-        "NO_ONLINE": {
-            "description": "This is not necessarily the case. කිසිවක් වෙනස් නොකරන්න.",
-            "required": false,
-            "value": "true"
-        },
-        "CAPTION": {
-            "description": "LOGO MAKER CAPTION  මෙහි ඔබගෙ බොට්ගෙ නම යොදන්න. ",
+        "GAN_IMAGE": {
+            "description": "Type image link for Gan Style plugin.",
             "required": true,
-            "value": "   ▷ ᴹᴬᴰᴱ 🄱🅈 ⎝☀🌹 CRETE BY MADAM MASK 🌹│"
+            "value": "https://i.hizliresim.com/loUtAb.jpg"
+        },
+        "GROUP_MANAGE": {
+            "description": "Type true if you need allow admin to use admin command",
+            "required": false,
+            "value": "false"
+        },
+        "CLONE_MSG": {
+            "description": "This MSG will display after the clone end",
+            "required": false
+        },
+        "NO_ONLINE": {
+            "description": "Type true if you don't want to appear online.",
+            "required": false,
+            "value": "false"
+        },
+        "MADAM MASK_AI": {
+            "description": "Artificial Intelligence Chat Bot!",
+            "required": false,
+            "value": "false"
         },
         "COFFEEHOUSE_API_KEY": {
-            "description": "Give it up. We give you this. කිසිවක් වෙනස් නොකරන්න. ",
+            "description": "Pass This Step!",
             "required": false,
             "value": "true"
         }
     },
-  "addons": [{
+    "addons": [{
       "plan": "heroku-postgresql"
     }],
     "buildpacks": [{
