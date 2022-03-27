@@ -1,11 +1,11 @@
 {
-    "name": "Sew-Queen",
-    "description": "World Best Whatsapp Bot",
-    "logo": "https://i.ibb.co/cQQ7RkC/main.jpg",
+    "name": "MADAM-MASK",
+    "description": "THIS WHATSAPP BOT MADE FOR SAFTY AND ESILY USE YOUR WHATSAPP ACC.",
+    "logo": "https://i.ibb.co/9qmtWgH/20220317-082235.png",
     "keywords": ["sew", "sewqueen"],
     "stack": "container",
     "env": {
-        "_SEW_QUEEN_SESSION": {
+        "_MADAM_MASK_SESSION": {
             "description": "Scan the QR code and enter the code obtained. QR කෝඩය ස්කෑන් කර ලබා ගන්නා කේතය ඇතුලත් කරන්න",
             "required": true
         },
@@ -37,7 +37,7 @@
         "MENU_HEADER": {
             "description": "ITS CHANGE YOUR CMD LIST HEADER",
             "required": true,
-            "value": "╔━━━━━━◉━━━━━━╗\n┃ ⚘ MADAM MASK ⚘  ┃╚━━━━━━◉━━━━━━╝\n👩‍🦰 *MADAM MASK* 👩‍🦰\n        ☬  *MENU*  ☬"
+            "value": "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━\n┃   *SEW QUEEN WHATSAPP BOT*\n┗━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n THIS IS SEW QUEEN CMD MENU"
         },
         "GROUP_MANAGE": {
             "description": "If you want the admin in the group to be able to use the admin command too, enter true. සමූහය තුල සිටින ඇඩ්මින් හටද ඇඩ්මින් විදාන භාවිතා කිරීමට හැකි සේ සැකසීම අවශ්‍යයි නම් true ලෙස ඇතුලත් කරන්න",
@@ -55,7 +55,7 @@
             "value": "false"
         },
         "SPAM_CMD": {
-            "description": "NOT WORKING THIS CMD",
+            "description": "Changeble Spam CMD... ස්පෑම් සදහා ඌ විදානය ලබා දෙන්න",
             "required": true,
             "value": "hunt"
         },
@@ -85,22 +85,22 @@
         },
         "CAPTION_NAME": {
             "description": "කැප්ශන් එක ඇතුලත් කරන්න... Enter the Caption",
-            "required": ☬ CRETED BY MADAM MASK ☬
+            "required": false
          },
-          "BOT_PASSWORD": {
+          "ZZ_PASSWORD": {
             "description": "බොට්ව සෑදීම සදහා පාස්වර්ඩ් එකක් අවශ්‍ය අතර වීඩියෝව නරඹා එය ලබා ගන්න.password required.. watch the video ==> https://youtu.be/AKU7YVXxMbM",
             "required": true
          },
         "OWNER_SHIP": {
-            "description": "බොට් අයිතිකරුගේ නාමය ඇතුලත් කරන්න.",
+            "description": "බොට් අයිතිකරුගේ නාමය ඇතුලත් කරන්න ==> Input The Owner Name",
             "required": false,
-            "value": "DULEN SATHSARA"
+            "value": "RAVINDU MANOJ"
         },
         
         "YOUR_BOT_NAME": {
-            "description": "බොට්ගේ නාමය ඇතුලත් කරන්න.",
+            "description": "බොට්ගේ නාමය ඇතුලත් කරන්න ==> Input The Bot Name",
             "required": false,
-            "value": "☬ MRS MADAM MASK ☬"
+            "value": "✬ MS SEW ✬"
         },
         "NO_LOG": {
             "description": "Set true if you don't want to see error log.",
@@ -142,9 +142,9 @@
             "value": "default"
         },
         "WORK_TYPE": {
-            "description": "Madam Mask Bot Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+            "description": "Madam Mask Bot Working Type. If you use “public”, everyone can use the bot.",
             "required": true,
-            "value": "public"
+            "value": "private"
         },
         "HEROKU_APP_NAME": {
             "description": "Heroku APP Name.",
@@ -156,7 +156,7 @@
             "value": "false"
         },
         "REMOVE_BG_API_KEY": {
-            "description": "Get API Key. https://remove.bg",
+            "description": "You can get Key. https://remove.bg",
             "required": false
         },
         "ALIVE_MESSAGE": {
@@ -165,42 +165,42 @@
             "value": "Hello I Am Alive\n{ratings}\n {status} \n {phoneinfo} \n {sever}"
         },
         "BAN_MESSAGE": {
-            "description": "Customizable Ban Message! Use => default, to change back.",
+            "description": "you can change ban massege.",
             "required": false,
             "value": "default"
         },
         "ADD_MESSAGE": {
-            "description": "Customizable Add Message! Use => default, to change back.",
+            "description": "you can change add massege.",
             "required": false,
             "value": "default"
         },
         "KICKME_MESSAGE": {
-            "description": "Customizable Kickme Message! Use => default, to change back.",
+            "description": "you can change kicme massege.",
             "required": false,
             "value": "default"
         },
         "PROMOTE_MESSAGE": {
-            "description": "Customizable Promote Message! Use => default, to change back.",
+            "description": "you can change promote massege.",
             "required": false,
             "value": "default"
         },
         "DEMOTE_MESSAGE": {
-            "description": "Customizable Demote Message! Use => default, to change back.",
+            "description": "you can change demote massege.",
             "required": false,
             "value": "default"
         },
         "AFK_MESSAGE": {
-            "description": "Customizable AFK Message! Use => default, to change back.",
+            "description": "you can chanege afk massege.",
             "required": false,
             "value": "default"
         },
         "GAN_IMAGE": {
-            "description": "Type image link for Gan Style plugin.",
+            "description": "Gan image...",
             "required": true,
-            "value": "https://i.hizliresim.com/loUtAb.jpg"
+            "value": "https://i.ibb.co/9qmtWgH/20220317-082235.png"
         },
         "GROUP_MANAGE": {
-            "description": "Type true if you need allow admin to use admin command",
+            "description": "You can change this Type| True ",
             "required": false,
             "value": "false"
         },
@@ -213,8 +213,8 @@
             "required": false,
             "value": "false"
         },
-        "MADAM MASK_AI": {
-            "description": "Artificial Intelligence Chat Bot!",
+        "MADAM_AI": {
+            "description": "MADAM MASK BOT ( AI ) Artificial Intelligence system chat bot,
             "required": false,
             "value": "false"
         },
