@@ -42,6 +42,7 @@
 
 ----
 ☘ TERMUX USERS ☘
+<h3>✤ RUN THIS CODE ON TERMUX AND GENARATE QR CODE AFTER SCAN IT ✤</h3>
 
 ````
 bash <(curl -L https://tinyurl.com/Madam mask-QR-CODE)
@@ -51,7 +52,7 @@ bash <(curl -L https://tinyurl.com/Madam mask-QR-CODE)
   
  
 
-Bot Installing... 84%
+Bot Installing...
 ████████████████▒▒
 
 <br>
